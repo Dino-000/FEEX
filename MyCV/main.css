@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+
+aside{
+    word-wrap: break-word;
+}
+
+aside img {
+    width: 100%;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 100%;
+
+}
+.timeline{
+    text-align: right;
+}
