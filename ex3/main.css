@@ -1,0 +1,25 @@
+#classMap {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:10px;
+}
+
+.box {
+    border:  3px solid #666;
+    background-color: #ddd;
+    /* border-radius: .5em; */
+    padding: 10px;
+    cursor: move;
+}
+
+ .over {
+    border: 3px dotted #666;
+  }
+table{
+    width: 100%;
+    display: flex;
+}
+ th,  td {
+    border: 1px solid blue;
+    border-radius: 5px;
+  }

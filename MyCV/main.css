@@ -3,17 +3,52 @@
     margin: 0px;
 }
 
+p {
+    padding-left: 5%
+}
+
+ul {
+    list-style-type: none;
+}
+
 body {
     background-color: white;
 }
 
+h1, h2, h3, h4 {
+    color: RGB(0, 180, 216);
+}
+
+
+h5, h6 {
+        font-weight: bold;
+}
 
 aside{
     word-wrap: break-word;
 }
 
+
 aside img {
     width: 100%;
+}
+
+.contact {
+    background-color: RGB(229, 247, 251);
+    padding: 5%;
+}
+
+.contact h6, a {
+    color: #4ac3e8;
+}
+
+
+aside h4, .brief h2 {
+    background-color:  RGB(229, 247, 251);
+}
+
+section {
+    margin-top: 5%;
 }
 
 .avatar img {
