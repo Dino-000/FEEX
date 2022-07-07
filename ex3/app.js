@@ -5,18 +5,10 @@ let students = document.querySelectorAll("td");
 let rowCount = document.getElementById("rowCount");
 let columnCount = document.getElementById("columnCount");
 
-
-
 createTable.addEventListener("click", () => {
   let table = document.createElement("TABLE");
   let colgroup = document.createElement("COLGROUP");
-  let  
-
-
-
-
-
-
+  // let
 
   for (row = 0; row < rowCount.value; row++) {
     let currentRow = document.createElement("TR");
@@ -33,15 +25,6 @@ createTable.addEventListener("click", () => {
   map.innerHTML = table.outerHTML;
   console.log(table);
 });
-
-
-
-
-
-
-
-
-
 
 uploadFile.addEventListener("change", (e) => {
   const file = e.target.files[0];
@@ -65,11 +48,6 @@ async function readExcelFile(file) {
     createList(studentList);
   };
 }
-
-
-
-
-
 
 // document.addEventListener("DOMNodeInserted", (event) => {
 let items = document.querySelectorAll(".box");
